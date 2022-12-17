@@ -1,0 +1,11 @@
+{
+	"user": "Rorff",
+	"repo": "San-Andreas-Roleplay",
+	"tag": "0.0.1",
+	"entry": "gamemodes/main.pwn",
+	"output": "gamemodes/main.amx",
+	"dependencies": [
+		"pawn-lang/samp-stdlib"
+	],
+	"local": true
+}
