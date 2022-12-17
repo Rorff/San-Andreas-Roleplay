@@ -5,7 +5,12 @@
 	"entry": "gamemodes/main.pwn",
 	"output": "gamemodes/main.amx",
 	"dependencies": [
-		"pawn-lang/samp-stdlib"
+		"pawn-lang/samp-stdlib",
+		"NexiusTailer/Nex-AC"
 	],
+	"runtime": {
+		"version": "0.3.DL",
+		"port": 7777
+	},
 	"local": true
 }
