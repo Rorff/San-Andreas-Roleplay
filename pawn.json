@@ -6,7 +6,9 @@
 	"output": "gamemodes/main.amx",
 	"dependencies": [
 		"pawn-lang/samp-stdlib",
-		"NexiusTailer/Nex-AC"
+		"NexiusTailer/Nex-AC",
+		"pawn-lang/YSI-Includes",
+		"pBlueG/SA-MP-MySQL"
 	],
 	"runtime": {
 		"version": "0.3.DL",
