@@ -7,7 +7,7 @@ hook OnGameModeInit()
     return 1;
 }
 
-hook OnPlayerConnect(playerid)
+hook OnPlayerRequestClass(playerid, classid)
 {
     ApplyPlayerCorrections(playerid);
     return 1;

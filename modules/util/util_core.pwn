@@ -1,7 +1,1 @@
-enum E_UTIL_DATA
-{
-    uName[MAX_PLAYER_NAME],
-    uIP[16]
-}
-
-new UtilInfo[MAX_PLAYERS][E_UTIL_DATA];
+#define     function%0(%1)      forward %0(%1);     public %0(%1)

@@ -1,11 +1,17 @@
 // player
 
-stock GetPlayerNameEx(playerid)
+stock CleanPlayerChat(playerid)
 {
-    return UtilInfo[playerid][uName];
+    for(new i; i < 20; i++)
+    {
+        SendClientMessage(playerid, -1, " ");
+    }
+    return 1;
 }
 
-stock GetPlayerIpEx(playerid)
+stock ResetPlayerInfo(playerid)
 {
-    return UtilInfo[playerid][uIP];
+    new reset[E_PLAYER_DATA];
+    PlayerInfo[playerid] = reset;
+    return 1;
 }

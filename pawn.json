@@ -8,7 +8,9 @@
 		"pawn-lang/samp-stdlib",
 		"NexiusTailer/Nex-AC",
 		"pawn-lang/YSI-Includes",
-		"pBlueG/SA-MP-MySQL"
+		"pBlueG/SA-MP-MySQL",
+		"Awsomedude/easyDialog",
+		"LassiR/bcrypt-samp"
 	],
 	"runtime": {
 		"version": "0.3.DL",
