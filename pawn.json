@@ -1,7 +1,6 @@
 {
 	"user": "Rorff",
 	"repo": "San-Andreas-Roleplay",
-	"tag": "0.0.1",
 	"entry": "gamemodes/main.pwn",
 	"output": "gamemodes/main.amx",
 	"dependencies": [
@@ -10,11 +9,17 @@
 		"pawn-lang/YSI-Includes",
 		"pBlueG/SA-MP-MySQL",
 		"Awsomedude/easyDialog",
-		"LassiR/bcrypt-samp"
+		"LassiR/bcrypt-samp",
+		"katursis/Pawn.CMD:3.3.6"
 	],
+	"local": true,
 	"runtime": {
 		"version": "0.3.DL",
-		"port": 7777
-	},
-	"local": true
+		"mode": "server",
+		"rcon_password": "password",
+		"port": 7777,
+		"hostname": "SA-MP Server",
+		"maxplayers": 50,
+		"language": ""
+	}
 }

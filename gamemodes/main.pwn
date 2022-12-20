@@ -5,20 +5,21 @@
 #undef      MAX_PLAYERS 
 #define     MAX_PLAYERS         (100)
 
-#include    <nex-ac>
 #include    <a_mysql>
 #include    <easyDialog>
 #include    <bcrypt>
+#include    <Pawn.CMD>
 
-// data
-
-#include    "..\modules\player\data\player_data.pwn"
+#include    <YSI_Data\y_foreach>
 
 // modules
 
-#include    "..\modules\util\util.pwn"
-#include    "..\modules\config\config.pwn"
-#include    "..\modules\systems\database\database.pwn"
+#include    "..\modules\core\util\util.pwn"
+#include    "..\modules\core\database\database.pwn"
+
+#include    "..\modules\player\player.pwn"
+#include    "..\modules\admin\admin.pwn"
+
 #include    "..\modules\systems\login\login.pwn"
 
 main()

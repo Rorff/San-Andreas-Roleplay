@@ -1,3 +1,3 @@
-new     
+new 
     TimerLogin[MAX_PLAYERS],
-    LoginTime[MAX_PLAYERS];
+    TimeToLogin[MAX_PLAYERS];

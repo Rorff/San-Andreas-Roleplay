@@ -8,6 +8,10 @@ hook OnGameModeInit()
 
 hook OnGameModeExit()
 {
+    foreach(new i : Player)
+    {
+        CallRemoteFunction("OnPlayerDisconnect", "dd", i, 2);
+    }
     DatabaseExit();
     return 1;
 }

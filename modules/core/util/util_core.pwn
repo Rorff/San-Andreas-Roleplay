@@ -1,3 +1,7 @@
+// macros
+
+#define     function%0(%1)                  forward %0(%1);     public %0(%1)
+
 // colors
 
 #define     COLOR_RED                       0xFF0000FF
